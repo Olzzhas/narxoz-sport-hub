@@ -1,6 +1,4 @@
 .idea
 
-*.env
-
-./cmd/api/movies.go
-./internal/data/movies.go
+internal/data/movies.go
+cmd/api/movies.go
