@@ -1,4 +1,6 @@
 .idea
 
+.env
+
 internal/data/movies.go
 cmd/api/movies.go
