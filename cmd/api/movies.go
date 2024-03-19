@@ -39,6 +39,8 @@ func (app *application) createMovieHandler(w http.ResponseWriter, r *http.Reques
 	fmt.Fprintf(w, "%+v\n", input)
 }
 
+//check
+
 func (app *application) showMovieHandler(w http.ResponseWriter, r *http.Request) {
 	id, err := app.readIDParam(r)
 	if err != nil {

@@ -2,4 +2,5 @@
 
 *.env
 
-movies.go
+./cmd/api/movies.go
+./internal/data/movies.go
